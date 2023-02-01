@@ -1,25 +1,3 @@
-#include <string>
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-char* UOCPUserDefaultsGetString(const char *key) {
-    NSString* stringKey = [NSString stringWithUTF8String:key];
-    NSString* stringValue = [[NSUserDefaults standardUserDefaults] stringForKey:stringKey];
-    if (!stringValue) {
-        return nil;
-    }
-    return strdup([stringValue UTF8String]);
-}
-
-void UOCPUserDefaultsSetString(const char *key, const char *value) {
-    NSString* stringKey = [NSString stringWithUTF8String:key];
-    NSString* stringValue = [NSString stringWithUTF8String:value];
-    [[NSUserDefaults standardUserDefaults] setValue:stringValue forKey:stringKey];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-}
-
-#ifdef __cplusplus
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4369702aee3fa5b954b935042d879428bf1292c1fb803b789c15585e655a4fc
+size 733

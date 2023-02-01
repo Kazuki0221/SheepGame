@@ -1,11 +1,3 @@
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace UnityEditor.U2D.Animation
-{
-    internal interface ITriangulator
-    {
-        void Triangulate(IList<Vector2> vertices, IList<Edge> edges, IList<int> indices);
-        void Tessellate(float minAngle, float maxAngle, float meshAreaFactor, float largestTriangleAreaFactor, float areaThreshold, int smoothIterations, IList<Vector2> vertices, IList<Edge> edges, IList<int> indices);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:07cd0e646f96660743bac4226e7a855c4e7bc8bf5203ec0f75e65e0d6104f6b4
+size 452

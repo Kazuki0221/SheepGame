@@ -1,25 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-
-namespace UnityEngine.U2D.Animation
-{
-    internal class SpriteLibrarySourceAsset : ScriptableObject
-    {
-        [SerializeField]
-        private List<SpriteLibCategoryOverride> m_Library = new List<SpriteLibCategoryOverride>();
-        [SerializeField]
-        private string m_PrimaryLibraryGUID;
-
-        public List<SpriteLibCategoryOverride> library
-        {
-            get => m_Library;
-            set => m_Library = value;
-        }
-
-        public string primaryLibraryID
-        {
-            get => m_PrimaryLibraryGUID;
-            set => m_PrimaryLibraryGUID = value;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:756029efe9e67b0f60efe193e50aafbb549597f6464f49e657028a932a0cd8c2
+size 663

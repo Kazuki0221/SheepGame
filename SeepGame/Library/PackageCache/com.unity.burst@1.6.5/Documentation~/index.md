@@ -1,3 +1,3 @@
-# **_Burst User Guide_**
-
-Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM. It is released as a Unity package and integrated into Unity using the Unity Package Manager.
+version https://git-lfs.github.com/spec/v1
+oid sha256:deadad0790a71bff238620aaa939bbf86a802c785b45b8d1b6d2af14c2d9faf7
+size 221
